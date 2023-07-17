@@ -3,28 +3,93 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+/* You can override the default Infima variables here. */
+html {
+  font-family: 'Comfortaa', cursive !important;
+}
+/* You can override the default Infima variables here. */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2e7de9;
+  --ifm-color-primary-dark: #186ee3;
+  --ifm-color-primary-darker: #1768d7;
+  --ifm-color-primary-darkest: #1355b1;
+  --ifm-color-primary-light: #478dec;
+  --ifm-color-primary-lighter: #5495ed;
+  --ifm-color-primary-lightest: #7aacf1;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: #2f334d
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #82aaff;
+  --ifm-color-primary-dark: #5b90ff;
+  --ifm-color-primary-darker: #4883ff;
+  --ifm-color-primary-darkest: #0f5bff;
+  --ifm-color-primary-light: #a8c4ff;
+  --ifm-color-primary-lighter: #bcd1ff;
+  --ifm-color-primary-lightest: #f5f9ff;
+  --ifm-background-color: #222436;
+  --ifm-background-color: #1e2030;
+  --ifm-heading-color: #bcd1ff;
+  --ifm-navbar-search-input-background-color: #2f334d;
+}
+
+.logosvg {
+  max-width: 570px;
+}
+
+.logosvg path {
+  fill: var(--ifm-color-primary)
+}
+
+.navbar__logo img {
+  fill: var(--ifm-color-primary)
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #2f334d;
+}
+
+html[data-theme='dark'] {
+  --primary-bg: #222436;
+  --ifm-background-color: #1e2030;
+  --ifm-background-surface-color: #222436;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+.social path {
+  fill: var(--ifm-navbar-link-color);
+}
+
+.social:hover path {
+  fill: var(--ifm-color-primary);
+}
+
+@media screen and (max-width: 996px) {
+  .social {
+    display: none;
+  }
+}
+
+.concak {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  left: 0;
 }

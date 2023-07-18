@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcssninja=self.webpackChunkcssninja||[]).push([[5971],{5622:s=>{s.exports=JSON.parse('{"permalink":"/cssninja/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

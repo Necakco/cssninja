@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcssninja=self.webpackChunkcssninja||[]).push([[178],{8950:s=>{s.exports=JSON.parse('{"permalink":"/cssninja/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

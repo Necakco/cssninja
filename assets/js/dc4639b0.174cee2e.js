@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcssninja=self.webpackChunkcssninja||[]).push([[539],{6304:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/cssninja/blog/tags/docusaurus","allTagsPath":"/cssninja/blog/tags","count":4}')}}]);
